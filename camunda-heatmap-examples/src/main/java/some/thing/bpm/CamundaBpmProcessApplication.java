@@ -62,13 +62,7 @@ public class CamundaBpmProcessApplication extends ServletProcessApplication {
 		// xor-example
 		processEngine.getRuntimeService().startProcessInstanceByKey(
 				"xor-example", withInput("A"));
-		processEngine.getRuntimeService().startProcessInstanceByKey(
-				"xor-example", withInput("A"));
-		processEngine.getRuntimeService().startProcessInstanceByKey(
-				"xor-example", withInput("A"));
 		
-		processEngine.getRuntimeService().startProcessInstanceByKey(
-				"xor-example", withInput("B"));
 		processEngine.getRuntimeService().startProcessInstanceByKey(
 				"xor-example", withInput("B"));
 		
